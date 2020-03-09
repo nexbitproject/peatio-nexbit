@@ -1,6 +1,6 @@
 # Peatio::Nexbit
 
-Peatio nexbit plugin for nPro stack
+Peatio nexbit plugin for nPro [peatio] stack
 
 ## Installation
 
