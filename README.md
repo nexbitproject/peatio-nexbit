@@ -58,4 +58,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 ## Consulting
 
 You can contact Openware for finding certified vendors:
-[nexbit.io](https://www.nexbit.io)
+[platform.nexbit.io](https://platform.nexbit.io)
