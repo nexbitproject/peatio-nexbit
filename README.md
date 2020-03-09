@@ -39,13 +39,13 @@ gem 'peatio-nexbit', '~> 0.1.0'
 
 ### Peatio Configuration.
 
-1. Create CPUchain Blockchain [config example](../config/blockchains.yml).
+1. Create Nexbit Blockchain [config example](../config/blockchains.yml).
     * No additional steps are needed
 
-2. Create CPUchain Currency [config example](../config/currencies.yml).
+2. Create Nexbit Currency [config example](../config/currencies.yml).
     * No additional steps are needed
 
-3. Create CPUchain Wallets [config example](../config/wallets.yml)(deposit and hot wallets are required).
+3. Create Nexbit Wallets [config example](../config/wallets.yml)(deposit and hot wallets are required).
     * No additional steps are needed
 
 
