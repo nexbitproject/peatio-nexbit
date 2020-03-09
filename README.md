@@ -1,4 +1,4 @@
-# Peatio::CPUchain
+# Peatio::Nexbit
 
 Peatio nexbit plugin for nPro stack
 
