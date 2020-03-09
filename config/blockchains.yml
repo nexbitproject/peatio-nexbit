@@ -1,0 +1,10 @@
+- key:               nbc-mainnet
+  name:              Nexbit Mainnet
+  client:            nexbitd                             # API client name.
+  server:            http://user:password@127.0.0.1:13519 # Public Nexbit node endpoint.
+  height:            1200                                # Initial block number from which sync will be started.
+  min_confirmations: 6                                    # Minimal confirmations needed for withdraw and deposit confirmation.
+  explorer:
+    address:         https://explorer.nexbit.io/address/#{address}
+    transaction:     https://explorer.nexbit.io/tx/#{txid}
+  status:            active

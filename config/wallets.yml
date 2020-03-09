@@ -1,0 +1,44 @@
+- name:             Nexbit Deposit Wallet
+  blockchain_key:   nbc-mainnet
+  currency_id:      nbc
+  # Address where deposits will be collected to.
+  address:          'NyWkTPkNRdpTDSfPw7gxUt9cEaC5PSsP3Y'  # IMPORTANT: Always wrap this value in quotes!
+  kind:             deposit    # Wallet kind (deposit, hot, warm, cold or fee).
+  nsig:             1          # Number of signatures required for performing withdraw.
+  max_balance:      0.0
+  status:           active
+  gateway:          nexbitd  # Gateway client name.
+  settings:
+    #
+    # Nexbitd gateway client settings.
+    uri:          http://user:password@127.0.0.1:13519
+
+- name:             Nexbit Hot Wallet
+  blockchain_key:   nbc-mainnet
+  currency_id:      nbc
+  # Address where deposits will be collected to.
+  address:          'NyWkTPkNRdpTDSfPw7gxUt9cEaC5PSsP3Y'  # IMPORTANT: Always wrap this value in quotes!
+  kind:             hot     # Wallet kind (deposit, hot, warm, cold or fee).
+  nsig:             1       # Number of signatures required for performing withdraw.
+  max_balance:      5.0
+  status:           active
+  gateway:          nexbitd   # Gateway client name.
+  settings:
+    #
+    # Nexbitd gateway client settings.
+    uri:          http://user:password@127.0.0.1:13519
+
+- name:             Nexbit Warm Wallet
+  blockchain_key:   nbc-mainnet
+  currency_id:      nbc
+  # Address where deposits will be collected to.
+  address:          'NyWkTPkNRdpTDSfPw7gxUt9cEaC5PSsP3Y'  # IMPORTANT: Always wrap this value in quotes!
+  kind:             warm    # Wallet kind (deposit, hot, warm, cold or fee).
+  nsig:             1       # Number of signatures required for performing withdraw.
+  max_balance:      50.0
+  status:           active
+  gateway:          nexbitd   # Gateway client name.
+  settings:
+    #
+    # Nexbitd gateway client settings.
+    uri:          http://user:password@127.0.0.1:13519
