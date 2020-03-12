@@ -3,7 +3,7 @@ require "active_support/core_ext/enumerable"
 require "peatio"
 
 module Peatio
-  module CPUchain
+  module Nexbit
     require "bigdecimal"
     require "bigdecimal/util"
 
